@@ -1,0 +1,29 @@
+ body{margin-left: 10%;
+    margin-right: 10%;
+ background: #BBE09F url(cabbage_C.gif) no-repeat center 85px fixed;    }
+  
+    div#titlepage { padding: 1em;
+ background: #D4F889 url(cabbage_C.gif) no-repeat center 75px fixed;   }
+   
+  div#titlepage p {
+  text-align: center;
+  font-variant: small-caps;
+    }
+  
+     p {
+    text-align: justify;
+    }
+ 
+    
+  h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+    h1 { color:#C30;}  
+    h2 { color:#630;}
+    
+    a:link { color:#030;}
+    a:visited { color:#363;}
+     a:hover { color:#030; background-color: #87B862; text-decoration:none;}
+      a:active { color:#C30;}

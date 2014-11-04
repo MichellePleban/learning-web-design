@@ -9,15 +9,29 @@ body {  margin-left: 12%;
 #intro {
   margin: 3em 0;  text-align: center;  }#intro h1 {  font-size: 1.5em;  color: #F26521;  }#intro img {  vertical-align: middle;  } #intro p {  font-size: 1.2em;  }  
 /* styles for the testimonials box */
-#testimonials {  width: 500px;
-  margin: 2em auto;
+#testimonials { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
   border: 1px dashed #F26521;
-  padding: 1em;  padding-left: 60px;  background: #FFBC53 url(images/ex-circle-corner.gif) no-repeat left top;  line-height: 1.2em;  }  #testimonials h2 {  font-size: 1em;  text-transform: uppercase;  color: #F26521;  letter-spacing: 3px;  }
+  padding: 1em;  padding-left: 60px; 
+  background: #FFBC53 url(images/ex-circle-corner.gif) no-repeat left top; 
+  line-height: 1.2em;  }
+   #testimonials h2 {  font-size: 1em;  text-transform: uppercase;  color: #F26521;  letter-spacing: 3px;  }
 
 /* styles for the products section */
+#products p.goto{
+  clear: left;
+}
+#products img {
+  float: left;
+  margin: 0 6px 6px 0;}
 #products {
+ margin-right: 250px;
   border: double #FFBC53;  padding: 2em;  background-color: #FFF;  line-height: 2em;
- }#products h2 {
+ }
+ #products h2 {
   margin-top: 3em;
   border-left: 3px solid;  border-top: 1px solid;  padding-left: 1em;  font-size: 1.2em;  color: #921A66;  }
 #products h2.first {  margin-top: 0;  }
@@ -34,21 +48,46 @@ a:visited {
   }  a:hover {  background-color: #FCF191;
   color: #921A66;  }
 
-/* miscellaneous styles */  em {   color: #F26521;  }  p#copyright {  color:#663333;   font-size: 10px;
-  text-align: center;  }</style></head><body><div id="intro">  <h1><img src="images/jenware_logo.png" width="451" height="81" alt="JenWARE logo"> JenWARE... Make It Personal </h1>
+/* miscellaneous styles */
+  em {   color: #F26521;  }  p#copyright {  color:#663333;   font-size: 10px;
+  text-align: center;  }
+  
+ #award { position: fixed;
+ top: 35px;
+ left: 25px;}
+  
+ #content {
+  position: relative;}
+  
+  </style></head>
+  <body><div id="intro">  <h1><img src="images/jenware_logo.png" width="451" height="81" alt="JenWARE logo"> JenWARE... Make It Personal </h1>
   <p>Special occasions call for special gifts. The Jenware line of housewares and clothing can be personalized for
    the ones you love... the happy couple celebrating their new life together... the recent graduate... or a new baby. </p></div>
+  
+  <div id="content">
    <div id="testimonials"><h2>Testimonials</h2><p>&quot;The JenWARE onesies were the hit of the baby shower.
     The custom letter &quot;a&quot; and handmade quality made this gift really stand out among the cookie-cutter clothes
      from the department store.&quot;</p><p>&quot;Thanks for the cool JenWARE barware. I couldn't wait until I found &quot;Mr.
       Right,&quot; so I just bought a set for myself! My friends always want to know where I got them so I send them to your
-       site.&quot; </p></div><div id="products"><h2 class="first">GlassWARE</h2><p><img src="images/glasses.jpg" width="
+       site.&quot; </p></div>
+       <div id="products"><h2 class="first">GlassWARE</h2><p><img src="images/glasses.jpg" width="
        250" height="116" alt="photo of glasses"></p><p><em>The perfect wedding gift.</em> Our highest quality glassware
         is sandblasted by hand with the character of your choice. Choose from 26 letters and 24 typefaces. Custom designs
-         are also available for an additional design charge. Allow 4 to 6 weeks for delivery. </p><p><a href="#">Go to
+         are also available for an additional design charge. Allow 4 to 6 weeks for delivery. </p>
+         <p class="goto"><a href="#">Go to
           the GlassWARE page </a></p><h2>BabyWARE</h2><p><img src="images/shirts.jpg" width="265" height="167" 
           alt="photos of shirts"></p><p><em>Tired of sickly-sweet?</em>
           These onesies with oversized letters in bold, bright patterns are a welcome change from the usual pastel fare. 
           Monogrammed pants and baby shoes are also available. Tell us the initial and mix and match from 6 fun fabric 
-          patterns and 8 edging colors. Allow 2 to 4 weeks for delivery. Sizes: 3mos, 6mos, and 12mos.</p><p><a href="#">Go to 
-          the BabyWARE page</a> </p></div><p id="copyright">All content copyright &copy; Jennifer Robbins and Jenware, Inc. </p></body></html>
+          patterns and 8 edging colors. Allow 2 to 4 weeks for delivery. Sizes: 3mos, 6mos, and 12mos.</p><p  class="goto"><a href="#">Go to 
+          the BabyWARE page</a> </p></div>
+          </div>
+          
+          <p id="copyright">All content copyright &copy; Jennifer Robbins and Jenware, Inc. </p>
+         
+  
+ <div id="award"><img src="images/awesomesite.gif"
+ alt=" awesome site of the week"/></div>
+ 
+ 
+          </body></html>
